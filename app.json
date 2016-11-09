@@ -1,0 +1,16 @@
+{
+  "name": "Starbot",
+  "description": "Return the number of stars for a repository",
+  "image": "heroku/go:1.6",
+  "env": {
+    "GITHUB_TOKEN": {
+      "description": "Personal access token from Github"
+    },
+    "GITHUB_DEFAULT_ORG": {
+      "description": "Org name to default to"
+    },
+    "GITHUB_DEFAULT_REPO": {
+      "description": "Repository name to default to"
+    }
+  }
+}
